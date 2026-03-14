@@ -64,21 +64,27 @@ const HeroSection = () => {
             Where advanced dental science meets compassionate care.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a
+            <motion.a
+              whileHover={{ scale: 1.04, y: -2 }}
+              whileTap={{ scale: 0.96 }}
+              transition={{ type: "spring", stiffness: 400, damping: 15 }}
               href="https://wa.me/2347038899828?text=Hello%20Zoe%20Care,%20I%20would%20like%20to%20book%20an%20appointment."
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 brand-curve press-scale hover:shadow-ceramic-lg"
+              className="group flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium transition-shadow duration-300 shadow-ceramic-md hover:shadow-ceramic-lg"
             >
               Book Appointment
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.04, y: -2 }}
+              whileTap={{ scale: 0.96 }}
+              transition={{ type: "spring", stiffness: 400, damping: 15 }}
               href="tel:+2347038899828"
-              className="px-8 py-4 rounded-full border border-border text-foreground font-medium transition-all duration-300 brand-curve press-scale hover:bg-muted"
+              className="px-8 py-4 rounded-full border border-border text-foreground font-medium transition-shadow duration-300 hover:bg-muted hover:shadow-ceramic-md"
             >
               Call Us
-            </a>
+            </motion.a>
           </div>
           <div className="flex items-center gap-8 pt-4">
             <div>
