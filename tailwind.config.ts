@@ -56,6 +56,7 @@ export default {
           DEFAULT: "hsl(var(--surface-dark))",
           foreground: "hsl(var(--surface-dark-foreground))",
         },
+        "teal-accent": "hsl(var(--teal-accent))",
         whatsapp: "hsl(var(--whatsapp))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
